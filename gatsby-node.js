@@ -17,8 +17,6 @@ exports.sourceNodes = async ({ actions, createNodeId }, options) => {
     api_secret: apiSecret,
   });
 
-  console.log({ imageOptions });
-
   const {
     asset_id,
     public_id,

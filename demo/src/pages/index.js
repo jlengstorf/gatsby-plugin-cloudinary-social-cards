@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { GatsbySocialImage } from '../../../';
+import { GatsbySocialImage } from 'gatsby-plugin-cloudinary-social-cards';
 
 export default () => {
   const title = 'This Page Boops';
