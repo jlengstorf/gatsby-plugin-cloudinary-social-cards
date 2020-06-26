@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-plugin-cloudinary-social-cards",
+  "version": "1.0.0",
+  "description": "Automatically generate social sharing images for your Gatsby pages using Cloudinary.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlengstorf/gatsby-plugin-cloudinary-social-cards.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "cloudinary"
+  ],
+  "files": [
+    "index.js",
+    "gatsby-node.js",
+    "src/*"
+  ],
+  "author": "Jason Lengstorf <jason@lengstorf.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@jlengstorf/get-share-image": "^0.7.1",
+    "cloudinary": "^1.22.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.23.11",
+    "gatsby-plugin-react-helmet": "^3.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "gatsby": "^2.23.11",
+    "react": "^16.13.1",
+    "react-helmet": "^6.1.0"
+  }
+}
