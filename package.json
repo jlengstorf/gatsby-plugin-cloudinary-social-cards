@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-cloudinary-social-cards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically generate social sharing images for your Gatsby pages using Cloudinary.",
   "main": "index.js",
   "repository": {
