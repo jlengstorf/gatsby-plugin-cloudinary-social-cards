@@ -17,7 +17,6 @@ export const GatsbySocialImage = ({ title, tagline, options = {} }) => {
 
   const templateOptions = JSON.parse(template.imageOptions) || {};
 
-  console.log({ templateOptions });
   const url = getShareImage({
     title,
     tagline,
@@ -29,6 +28,7 @@ export const GatsbySocialImage = ({ title, tagline, options = {} }) => {
 
   return (
     <Helmet>
+      <meta name="image" content={url} />
       <meta property="og:image" content={url} />
     </Helmet>
   );

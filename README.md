@@ -2,6 +2,12 @@
 
 Add social sharing cards to your Gatsby sites using [Cloudinary](https://jason.af/cloudinary)!
 
+This plugin will:
+
+1. Look for a template image in your repo
+2. Upload that template to your Cloudinary account
+3. Automatically create social media sharing images with the title (and optional tagline) of your post
+
 ## Installation
 
 ```bash
@@ -41,12 +47,14 @@ module.exports = {
 
 Option | Required | Default | Description
 ------ | -------- | ------- | -----------
-`cloudName` | `true` | | Your Cloudinary cloud name (usually your account name)
-`apiKey` | `true` | | Your Cloudinary API key ([get one here][cloudinary-console])
-`apiSecret` | `true` | | Your Cloudinary API secret ([get one here][cloudinary-console])
-`imageTemplate` | `true` | | Path to the social card image template
+`cloudName` | `true` | | Your Cloudinary cloud name (usually your account name).
+`apiKey` | `true` | | Your Cloudinary API key ([get one here][cloudinary-console]).
+`apiSecret` | `true` | | Your Cloudinary API secret ([get one here][cloudinary-console]).
+`imageTemplate` | `true` | | Path to the social card image template. This should be a local file in your repo.
 `uploadFolder` | | `null` | Optional subfolder where the template should be uploaded in your Cloudinary account.
 `imageOptions` | | `{}` | Additional settings for your template image.
+
+If you need a template, I wrote a post on [creating a social sharing template image](https://www.learnwithjason.dev/blog/design-social-sharing-card/).
 
 #### `imageOptions`
 
